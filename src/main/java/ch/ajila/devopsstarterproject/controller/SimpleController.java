@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 public class SimpleController {
 
-    @GetMapping("/testPipeline")
+    @GetMapping("/testRequest")
     public String getUsers() {
         return "This is a test!";
     }
